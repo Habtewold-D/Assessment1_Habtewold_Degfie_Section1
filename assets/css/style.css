@@ -13,7 +13,7 @@ img{
     width: 19rem;
 }
 header{
-    background-color: rgb(211, 250, 211);
+    background-color: #d9eed9;
     padding: 1.5rem 0;
     text-decoration: none;
 }
@@ -21,9 +21,7 @@ header h1{
     display: flex;
     justify-content: center;
 }
-nav{
-   
-}
+
 nav ul{
     display: flex;
     justify-content: center;
@@ -34,7 +32,7 @@ nav ul li{
 }
 nav a{
     text-decoration: none;
-    color: rgb(23, 214, 23);
+    color: #4CAF50;
 }
 .section{
     margin: 1.5rem 1.5rem -2rem;
@@ -46,9 +44,10 @@ nav a{
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 1.5rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 .product{
+    margin-top: 2rem;
     max-width: 22rem;
     width: 100%;
     background: white;
@@ -72,7 +71,7 @@ nav a{
 }
 
 footer{
-    background-color: rgb(3, 82, 3);
+    background-color: #124314;
     margin-top: 12.5rem;
 }
 footer p{
@@ -84,4 +83,30 @@ footer p{
 .product .price{
     font-size: 1.5em;
     color: rgb(23, 214, 23);
+}
+@media (min-width: 72rem) {
+    .product-list {
+       padding: 7rem;
+    }
+    .product{
+        margin-top: -3rem;
+        max-width: 16rem;
+        gap: 8rem;
+        height: 42rem;
+    }
+    .product p{
+        font-size: 1rem;
+    }
+    img{
+        width: 13rem;
+    }
+    .section{
+        margin-top: -4rem;
+    }
+    nav{
+        margin-bottom: 5rem;
+    }
+    footer{
+        margin-top: -0.5rem;
+    }
 }
